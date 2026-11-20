@@ -1,0 +1,27 @@
+#Fichiers confidentiels
+.env
+.env.*
+!.env.example
+
+#Laravel
+/api/vendor/
+/api/storage/*.php
+/api/bootstrap/cache/*.php
+/api/public/build/
+
+#React et Node.js
+/web/node_modukes/
+/web/dist/
+
+#Flutter
+/mobile/.dart_tool/
+/mobile/build/
+/mobile/.flutter-plugins
+/mobile/.flutter-plugins-dependenciers
+/mobile/android/.gradle/
+/mobile/ios/Pods/
+
+#Fichier temporaires
+*.log
+.DS_Store
+Thumbs.db
